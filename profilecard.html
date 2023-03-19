@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        section{
+            height: 100vh;
+            width: 100%;
+            background-color: white;
+            padding-top: 200px;
+        }
+        section>article{
+            height: 350px;
+            width: 250px;
+            background-color: white;
+            margin-left: 600px;
+            box-shadow: 0px 0px 10px;
+            padding-top: 15px;
+        }
+        section>article:hover{
+            transform: rotate3d(1, 1, 1, 270deg);
+            transition: 5s;
+        }
+        section>article>.img{
+            height: 90px;
+            width: 90px;
+            background-color: aquamarine;
+            border-radius: 100%;
+            background-image: url(../Assests/pic.jpg);
+            background-size: cover;
+            box-shadow: 0px 0px 10px;
+            margin-left: 80px;
+            
+        }
+        section>article>.profile{
+            text-align: center;
+            line-height: 10px;
+        }
+        section>article>h1{
+            margin-left: 100px;
+        }
+        section>article>.p1{
+            margin-left: 75px;
+            margin-top: -20px;
+            color: grey;
+            font-size: 15px;
+        }
+        section>article>.p2{
+            margin-left: 70px;
+            margin-top: -10px;
+        }
+       #a{
+        font-size: 25px;
+        margin-left: 10px;
+       } 
+       #b{
+        font-size: 32px;
+        margin-left: 30px;
+        color: blue;
+       }
+       #c{
+        font-size: 32px;
+        margin-left: 50px;
+        color: orange;
+       }
+       #d{
+        font-size: 32px;
+        margin-left: 60px;
+        color: blueviolet;
+       }
+       #e{
+            margin-left: 27px;
+       }
+       #f{
+        margin-left: 57px;
+       }
+       #e{
+        margin-left: 30px;
+       }
+       #f{
+        margin-left: 47px;
+       }
+       #g{
+        margin-left: 57px;
+       }
+       #h{
+        margin-left: 10px;
+       }
+       #i{
+        margin-left: 18px;
+       }
+       #j{
+        margin-left: 18px;
+       }
+       .z{
+        text-align: center;
+        border-radius: 50px;
+        border-color: black;
+        border-style: solid;
+        height: 25px;
+        width: 80px;
+        background-color: brown;
+        margin-left: 80px;
+        border: none;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+        <section>
+            <article>
+                <div class="img"></div>
+                <div class = "profile"></div>
+                <h1>Amit</h1>
+                <p class="p1">Java Developer</p>
+                <p class="p2">Alive n Kicking!</p>
+                <a href="https://www.linkedin.com/in/amit-jamshetty-57b46321a/"><button class="z">Hire Me</button></a>
+                <i class="fa-solid fa-rectangle-wave" id="a"></i> <br> <br> <br>
+                <i class="fa-brands fa-linkedin" id="b"></i>
+                <i class="fa-brands fa-instagram" id="c"></i>
+                <i class="fa-brands fa-twitter" id="d"></i>
+                <span id="e"><b>1.3k</b></span>
+                <span id="f"><b>2.8k</b></span>
+                <span id="g"><b>1.7k</b></span> <br>
+                <span id="h">Followers</span>
+                <span id="i">Followers</span>
+                <span id="j">Followers</span>
+            </article>
+        </section>
+</body>
+</html>
